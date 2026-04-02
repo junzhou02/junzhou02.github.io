@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jun Zhou | Notes From a Moving Research Life</title>
+    <meta
+      name="description"
+      content="Jun Zhou's personal homepage in a hand-drawn notebook style, tracing a research journey across mathematics, control, stochastic dynamics, and intelligent systems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Crimson+Pro:wght@400;500;600;700&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="paper-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">Jun Zhou</a>
+      <nav class="top-nav">
+        <a href="#story">Story</a>
+        <a href="#research">Research</a>
+        <a href="#work">Work</a>
+        <a href="#publications">Publications</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-block lift-in">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal notebook / ongoing draft / version 1</p>
+          <h1>
+            I build mathematical lenses for
+            <span class="highlight-scribble">complex dynamical systems</span>.
+          </h1>
+          <p class="lede">
+            I am Jun Zhou, currently pursuing an M.E. at Huazhong University of
+            Science and Technology. My work moves between control, stochastic
+            dynamics, Koopman-inspired modeling, and optimization for systems
+            that are too large, too noisy, or too nonlinear to be handled
+            casually.
+          </p>
+
+          <div class="cta-row">
+            <a class="button primary" href="mailto:junzhou02@hust.edu.cn">Email Me</a>
+            <a class="button secondary" href="./assets/Jun_Zhou_CV.pdf" target="_blank" rel="noreferrer">
+              Download CV
+            </a>
+          </div>
+
+          <ul class="quick-notes" aria-label="Quick notes">
+            <li>Now: HUST, M.E. in Control Science and Engineering</li>
+            <li>Research threads: PDE control, stochastic dynamics, Koopman analysis</li>
+            <li>Academic stops: Manchester, Waterloo, Toronto, Wuhan</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card doodle-frame">
+          <div class="pin"></div>
+          <p class="card-label">Field Note</p>
+          <p class="card-title">What keeps showing up in my work?</p>
+          <p>
+            Structure hidden inside messy trajectories. I like models that can
+            explain how a system evolves, not just predict one more point.
+          </p>
+          <div class="mini-grid">
+            <span>control</span>
+            <span>spectral thinking</span>
+            <span>optimization</span>
+            <span>learning from data</span>
+          </div>
+        </aside>
+      </section>
+
+      <section id="story" class="section-block story-grid lift-in">
+        <div class="section-heading">
+          <p class="eyebrow">Page story</p>
+          <h2>From pure mathematics to systems that move in the real world</h2>
+        </div>
+
+        <article class="notecard tone-cream">
+          <h3>The starting point</h3>
+          <p>
+            My undergraduate training in mathematics gave me a habit of looking
+            for internal structure: geometry, approximation, analysis, and the
+            logic underneath formal systems. That habit still shapes how I do
+            research today.
+          </p>
+        </article>
+
+        <article class="notecard tone-yellow offset-top">
+          <h3>The turn</h3>
+          <p>
+            Over time, I became more interested in systems that evolve,
+            interact, and resist closed-form answers. That led me from abstract
+            mathematics toward control, signal modeling, stochastic dynamics,
+            and operator-theoretic viewpoints.
+          </p>
+        </article>
+
+        <article class="notecard tone-blue">
+          <h3>The present</h3>
+          <p>
+            My recent work studies how to identify, approximate, and regulate
+            difficult systems: infinite-dimensional linear systems, stochastic
+            dynamical systems, and noisy nonlinear processes whose behavior
+            becomes clearer in the right coordinates.
+          </p>
+        </article>
+
+        <article class="notecard tone-pink offset-right">
+          <h3>The way I like to work</h3>
+          <p>
+            I enjoy crossing disciplines and environments. Each place I studied
+            in left a different mark on my thinking: mathematical depth,
+            engineering pragmatism, operator theory, and a stronger instinct
+            for asking questions that matter beyond a single model.
+          </p>
+        </article>
+      </section>
+
+      <section id="research" class="section-block research-board lift-in">
+        <div class="section-heading">
+          <p class="eyebrow">Research board</p>
+          <h2>Questions I keep returning to</h2>
+        </div>
+
+        <div class="research-list">
+          <article class="research-card">
+            <span class="index-tag">01</span>
+            <h3>Infinite-dimensional control</h3>
+            <p>
+              How can feedback optimization operate in real time when the
+              dynamics come from PDEs and the control law must respect both
+              rigor and computation?
+            </p>
+          </article>
+
+          <article class="research-card">
+            <span class="index-tag">02</span>
+            <h3>Stochastic system identification</h3>
+            <p>
+              When observations are noisy, can we still recover the generator,
+              invariant structure, or interpretable evolution operator behind a
+              stochastic process?
+            </p>
+          </article>
+
+          <article class="research-card">
+            <span class="index-tag">03</span>
+            <h3>Koopman-inspired representation</h3>
+            <p>
+              I am drawn to spectral and operator-theoretic descriptions because
+              they can turn nonlinear motion into something more analyzable,
+              communicable, and useful.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section-block timeline-block lift-in">
+        <div class="section-heading">
+          <p class="eyebrow">Timeline</p>
+          <h2>A research path built across several campuses</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">Sep 2023 - Present</div>
+            <div class="timeline-body">
+              <h3>Huazhong University of Science and Technology</h3>
+              <p>M.E. in Control Science and Engineering of New Energy Science</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">Jun 2025 - Oct 2025</div>
+            <div class="timeline-body">
+              <h3>University of Toronto</h3>
+              <p>Visiting research student in Electrical and Computer Engineering</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">Jan 2025 - May 2025</div>
+            <div class="timeline-body">
+              <h3>University of Waterloo</h3>
+              <p>Visiting research student, Department of Mathematics</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">Sep 2021 - Jun 2022</div>
+            <div class="timeline-body">
+              <h3>University of Manchester</h3>
+              <p>Exchange student, Department of Mathematics</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">Sep 2019 - Jun 2023</div>
+            <div class="timeline-body">
+              <h3>Anhui University</h3>
+              <p>B.S. in Mathematics, Honored Degree</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block current-focus lift-in">
+        <div class="section-heading">
+          <p class="eyebrow">Current notes</p>
+          <h2>Work in progress</h2>
+        </div>
+
+        <div class="focus-layout">
+          <article class="focus-sheet doodle-frame">
+            <h3>Feedback optimization for infinite-dimensional linear systems</h3>
+            <p>
+              I am studying a framework for real-time optimization and
+              regulation in PDE-driven systems, with an emphasis on input-to-state
+              stability, Lyapunov analysis, and explicit performance guarantees.
+            </p>
+          </article>
+
+          <article class="focus-sheet sticky">
+            <h3>Resolvent-Yosida identification of stochastic systems</h3>
+            <p>
+              Another recent direction asks whether the Koopman generator can be
+              learned from noisy trajectories in a way that preserves both
+              predictive power and operator-level meaning.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section-block publications-block lift-in">
+        <div class="section-heading">
+          <p class="eyebrow">Selected writing</p>
+          <h2>Publications and recent papers</h2>
+        </div>
+
+        <div class="pub-list">
+          <article class="pub-item">
+            <h3>
+              Koopman Spectral Analysis and System Identification for Stochastic
+              Dynamical Systems via Yosida Approximation of Generators
+            </h3>
+            <p>Jun Zhou, Yiming Meng, and collaborators. ACC 2026.</p>
+          </article>
+
+          <article class="pub-item">
+            <h3>
+              Koopman Spectral Analysis from Noisy Measurements Based on Bayesian
+              Learning and Kalman Smoothing
+            </h3>
+            <p>Zhexuan Zeng, Jun Zhou, Yasen Wang, Zuowei Ping. ACC 2025.</p>
+          </article>
+
+          <article class="pub-item">
+            <h3>
+              A Novel Fiber-Optic Tactile Sensor with Deep Learning Demodulation
+              for Dexterous Robotic Hands
+            </h3>
+            <p>Mechanical Systems and Signal Processing, 2025.</p>
+          </article>
+
+          <article class="pub-item">
+            <h3>
+              Complete Consistency for the Weighted Least Squares Estimators in
+              Semiparametric Regression Models
+            </h3>
+            <p>Communications in Statistics: Theory and Methods, 2023.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block closing-note lift-in">
+        <div class="closing-card">
+          <p class="eyebrow">Last page</p>
+          <h2>I like research that feels both rigorous and alive.</h2>
+          <p>
+            If you are working on dynamical systems, control, scientific machine
+            learning, or operator-theoretic ideas, I would be happy to connect.
+          </p>
+          <div class="footer-links">
+            <a href="mailto:junzhou02@hust.edu.cn">junzhou02@hust.edu.cn</a>
+            <a href="./assets/Jun_Zhou_CV.pdf" target="_blank" rel="noreferrer">CV</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
